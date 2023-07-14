@@ -19,6 +19,7 @@ function groupObjectsBy(inputArray, key) {
     return groupedObjects;
 }
 
+
 var inputArray = [
     { name: "Alice", age: 20, occupation: "student" },
     { name: "Bob", age: 20, occupation: "engineer" },
@@ -27,3 +28,6 @@ var inputArray = [
 ];
 
 console.log(groupObjectsBy(inputArray, "age"));
+
+
+
